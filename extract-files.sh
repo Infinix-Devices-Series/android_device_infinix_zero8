@@ -18,7 +18,7 @@
 
 set -e
 
-DEVICE=hot10
+DEVICE=zero8
 VENDOR=infinix
 
 # Load extract_utils and do some sanity checks

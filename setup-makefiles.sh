@@ -18,7 +18,7 @@
 
 set -e
 
-DEVICE=hot10
+DEVICE=zero8
 VENDOR=infinix
 
 INITIAL_COPYRIGHT_YEAR=2020

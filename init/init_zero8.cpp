@@ -51,7 +51,7 @@ void property_override(string prop, string value)
 
 void vendor_load_properties()
 {
-    string model = "Infinix Hot 10";
+    string model = "Infinix Zero 8";
 
     // Override all partitions' props
     string prop_partitions[] = { "", "odm.", "product.", "system.", "vendor." };

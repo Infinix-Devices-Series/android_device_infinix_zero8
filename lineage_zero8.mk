@@ -19,7 +19,7 @@ TARGET_SCREEN_WIDTH := 1080
 TARGET_SCREEN_HEIGHT := 2340
 
 # Inherit from merlin device makefile
-$(call inherit-product, device/infinix/hot10/device.mk)
+$(call inherit-product, device/infinix/zero8/device.mk)
 
 # Inherit from those products. Most specific first.
 $(call inherit-product, $(SRC_TARGET_DIR)/product/core_64_bit.mk)
@@ -30,16 +30,16 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/aosp_base.mk)
 $(call inherit-product, vendor/lineage/config/common_full_phone.mk)
 
 ## Device identifier. This must come after all inclusions
-PRODUCT_DEVICE := hot10
-PRODUCT_NAME := lineage_hot10
+PRODUCT_DEVICE := zero8
+PRODUCT_NAME := lineage_zero8
 PRODUCT_BRAND := Infinix
-PRODUCT_MODEL := Infinix Hot 10
+PRODUCT_MODEL := Infinix Zero 8
 PRODUCT_MANUFACTURER := Infinix
 
 PRODUCT_GMS_CLIENTID_BASE := android-infinix
 TARGET_VENDOR := infinix
-TARGET_VENDOR_PRODUCT_NAME := hot10
-PRODUCT_BUILD_PROP_OVERRIDES += PRIVATE_BUILD_DESC="sys_tssi_64_infinix-user 10 QP1A.190711.020 50086 release-keys"
+TARGET_VENDOR_PRODUCT_NAME := zero8
+PRODUCT_BUILD_PROP_OVERRIDES += PRIVATE_BUILD_DESC="redfin-user 11 RQ3A.210905.001 7511028 release-keys"
 
 # Set BUILD_FINGERPRINT variable to be picked up by both system and vendor build.prop
-BUILD_FINGERPRINT := Infinix/TSSI/FULL-64:10/QP1A.190711.020/201109V254:user/release-keys
+BUILD_FINGERPRINT := google/redfin/redfin:11/RQ3A.210905.001/7511028:user/release-keys
