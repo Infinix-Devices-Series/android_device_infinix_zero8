@@ -81,7 +81,7 @@ PRODUCT_PACKAGES += \
     
 # Light
 PRODUCT_PACKAGES += \
-    android.hardware.light@2.0-service.hot10
+    android.hardware.light@2.0-service.zero8
 
 # NFC stack (AOSP)
 PRODUCT_PACKAGES += \
